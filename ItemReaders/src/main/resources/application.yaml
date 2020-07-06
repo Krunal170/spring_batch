@@ -1,0 +1,16 @@
+spring:
+
+  batch:
+    initialize-schema: always
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3301/statement
+    username: 'root'
+    password: 'root'
+    platform: mysql
+
+datafile: 
+  file: 'E:\spring_batch\ws\ItemReaders\src\main\resources\input\fixsizefile\customerFixedWidth.txt'
+ 
+    
+    
